@@ -9,7 +9,7 @@
 #ifndef _KIPR_THREAD_THREAD_H_
 #define _KIPR_THREAD_THREAD_H_
 
-#include "kipr/export/export.h"  
+#include "../../kipr/export/export.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -17,26 +17,24 @@ extern "C" {
 
 /**
  * \brief A mutex, or lock
- * \details mutexes are used to prevent memory errors when two programs or threads need
- * to access the same variable.
- * \see mutex_create
- * \ingroup thread
+ * \details mutexes are used to prevent memory errors when two programs or
+ * threads need to access the same variable. \see mutex_create \ingroup thread
  */
-typedef struct
-{
-	void *data;  //!< a C++ Mutex object cast to a `void*`. Not intended to be accessed.
+typedef struct {
+  void *data; //!< a C++ Mutex object cast to a `void*`. Not intended to be
+              //!< accessed.
 } mutex;
 
 /**
- * \brief A thread, or separate process 
+ * \brief A thread, or separate process
  * \details a thread runs a function "in the background"
  * (while another function is executing).
  * \see thread_create
  * \ingroup thread
  */
-typedef struct
-{
-	void *data;  //!< a C++ Thread object cast to a `void*`. Not intended to be accessed.
+typedef struct {
+  void *data; //!< a C++ Thread object cast to a `void*`. Not intended to be
+              //!< accessed.
 } thread;
 
 /** \brief thread_function is a wrapper for functions of all return types.

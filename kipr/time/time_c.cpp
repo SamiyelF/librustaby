@@ -1,4 +1,4 @@
-#include "kipr/time/time.h"
+#include "../../kipr/time/time.h"
 #include "time_p.hpp"
 
 using namespace kipr;

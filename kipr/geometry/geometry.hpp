@@ -2,7 +2,7 @@
 #define _KIPR_GEOMETRY_GEOMETRY_HPP_
 
 #include "geometry.h"
-#include "kipr/export/export.h"
+#include "../../kipr/export/export.h"
 
 namespace kipr
 {

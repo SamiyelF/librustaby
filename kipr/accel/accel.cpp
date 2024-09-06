@@ -1,4 +1,4 @@
-#include "kipr/accel/accel.hpp"
+#include "../../kipr/accel/accel.hpp"
 #include "accel_p.hpp"
 
 using namespace kipr;

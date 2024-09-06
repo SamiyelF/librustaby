@@ -1,7 +1,7 @@
 #ifndef _KIPR_WAIT_FOR_WAIT_FOR_H_
 #define _KIPR_WAIT_FOR_WAIT_FOR_H_
 
-#include "kipr/export/export.h"
+#include "../../kipr/export/export.h"
 
 #ifdef __cplusplus
 extern "C" {
@@ -60,37 +60,44 @@ EXPORT_SYM void wait_for_side_button();
 EXPORT_SYM void wait_for_any_button();
 
 /**
- * Waits (blocks) until the a button has been pressed and then subsequently released.
+ * Waits (blocks) until the a button has been pressed and then subsequently
+ * released.
  */
 EXPORT_SYM void wait_for_a_button_clicked();
 
 /**
- * Waits (blocks) until the b button has been pressed and then subsequently released.
+ * Waits (blocks) until the b button has been pressed and then subsequently
+ * released.
  */
 EXPORT_SYM void wait_for_b_button_clicked();
 
 /**
- * Waits (blocks) until the c button has been pressed and then subsequently released.
+ * Waits (blocks) until the c button has been pressed and then subsequently
+ * released.
  */
 EXPORT_SYM void wait_for_c_button_clicked();
 
 /**
- * Waits (blocks) until the x button has been pressed and then subsequently released.
+ * Waits (blocks) until the x button has been pressed and then subsequently
+ * released.
  */
 EXPORT_SYM void wait_for_x_button_clicked();
 
 /**
- * Waits (blocks) until the y button has been pressed and then subsequently released.
+ * Waits (blocks) until the y button has been pressed and then subsequently
+ * released.
  */
 EXPORT_SYM void wait_for_y_button_clicked();
 
 /**
- * Waits (blocks) until the z button has been pressed and then subsequently released.
+ * Waits (blocks) until the z button has been pressed and then subsequently
+ * released.
  */
 EXPORT_SYM void wait_for_z_button_clicked();
 
 /**
- * Waits (blocks) until the side button has been pressed and then subsequently released.
+ * Waits (blocks) until the side button has been pressed and then subsequently
+ * released.
  */
 EXPORT_SYM void wait_for_side_button_clicked();
 

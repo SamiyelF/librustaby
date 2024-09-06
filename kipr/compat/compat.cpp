@@ -1,14 +1,10 @@
-#include "kipr/compat/compat.hpp"
+#include "../../kipr/compat/compat.hpp"
 
-#include <unistd.h>
 #include <sched.h>
+#include <unistd.h>
 
-int kipr::compat::yield()
-{
-  return sched_yield();
-}
+int kipr::compat::yield() { return sched_yield(); }
 
-int kipr::compat::microsleep(unsigned long microseconds)
-{
+int kipr::compat::microsleep(unsigned long microseconds) {
   return usleep(microseconds);
 }

@@ -1,9 +1,9 @@
 #ifndef _KIPR_BUTTON_BUTTON_HPP_
 #define _KIPR_BUTTON_BUTTON_HPP_
 
-#include "kipr/sensor/sensor.hpp"
+#include "../../kipr/sensor/sensor.hpp"
 #include "button_ids.hpp"
-#include "kipr/export/export.h"
+#include "../../kipr/export/export.h"
 
 namespace kipr
 {

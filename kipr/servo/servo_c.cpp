@@ -1,4 +1,4 @@
-#include "kipr/servo/servo.h"
+#include "../../kipr/servo/servo.h"
 #include "servo_p.hpp"
 
 void enable_servo(int port)

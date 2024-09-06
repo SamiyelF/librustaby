@@ -8,25 +8,23 @@
 #ifndef _KIPR_SENSOR_SENSOR_HPP_
 #define _KIPR_SENSOR_SENSOR_HPP_
 
-#include "kipr/export/export.h"
+#include "../../kipr/export/export.h"
 
-namespace kipr
-{
-  namespace sensor
-  {
-    template<typename T>
+namespace kipr {
+namespace sensor {
+template <typename T>
 #ifdef SWIG
     class Sensor
 #else
-    class EXPORT_SYM Sensor
+class EXPORT_SYM Sensor
 #endif
-    {
-    public:
-      virtual ~Sensor() {}
+{
+public:
+  virtual ~Sensor() {}
 
-      virtual T value() const = 0;
-    };
-  }
-}
+  virtual T value() const = 0;
+};
+} // namespace sensor
+} // namespace kipr
 
 #endif

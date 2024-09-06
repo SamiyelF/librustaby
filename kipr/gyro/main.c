@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-#include "kipr/gyro/gyro.h"
-#include "kipr/time/time.h"
+#include "../../kipr/gyro/gyro.h"
+#include "../../kipr/time/time.h"
 
-int main(int argc, char **argv)
-{
-  while (1)
-  {
+int main(int argc, char **argv) {
+  while (1) {
     signed short gx = gyro_x();
     signed short gy = gyro_y();
     signed short gz = gyro_z();

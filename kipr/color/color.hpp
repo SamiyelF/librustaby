@@ -1,7 +1,7 @@
 #ifndef _KIPR_COLOR_COLOR_HPP_
 #define _KIPR_COLOR_COLOR_HPP_
 
-#include "kipr/export/export.h"
+#include "../../kipr/export/export.h"
 
 struct Rgb
 {

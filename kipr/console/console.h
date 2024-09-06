@@ -16,7 +16,7 @@
 #ifndef _KIPR_CONSOLE_CONSOLE_H_
 #define _KIPR_CONSOLE_CONSOLE_H_
 
-#include "kipr/export/export.h"
+#include "../../kipr/export/export.h"
 
 #ifdef __cplusplus
 extern "C" {

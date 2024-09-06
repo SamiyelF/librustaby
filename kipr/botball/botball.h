@@ -1,7 +1,7 @@
 #ifndef _KIPR_BOTBALL_BOTBALL_H_
 #define _KIPR_BOTBALL_BOTBALL_H_
 
-#include "kipr/export/export.h"
+#include "../../kipr/export/export.h"
 
 #ifdef __cplusplus
 extern "C" {

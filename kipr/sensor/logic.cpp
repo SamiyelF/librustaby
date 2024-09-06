@@ -1,4 +1,4 @@
-#include "kipr/sensor/logic.hpp"
+#include "../../kipr/sensor/logic.hpp"
 
 using namespace kipr;
 using namespace kipr::sensor;

@@ -5,12 +5,8 @@
  *      Author: Joshua Southerland
  */
 
-
-#include "kipr/audio/audio.h"
+#include "../../kipr/audio/audio.h"
 
 #include <cstdio>
 
-void beep()
-{
-  printf("\a");
-}
+void beep() { printf("\a"); }

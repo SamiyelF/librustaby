@@ -1,7 +1,7 @@
 #include <stdio.h>
 
-#include "kipr/create/create.h"
-#include "kipr/time/time.h"
+#include "../../kipr/create/create.h"
+#include "../../kipr/time/time.h"
 
 
 int main(int argc, char ** argv)

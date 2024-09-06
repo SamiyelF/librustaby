@@ -1,4 +1,4 @@
-#include "kipr/magneto/magneto.hpp"
+#include "../../kipr/magneto/magneto.hpp"
 #include "magneto_p.hpp"
 
 using namespace kipr;

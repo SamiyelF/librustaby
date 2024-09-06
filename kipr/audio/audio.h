@@ -1,7 +1,7 @@
 #ifndef _KIPR_AUDIO_AUDIO_H_
 #define _KIPR_AUDIO_AUDIO_H_
 
-#include "kipr/export/export.h"
+#include "../../kipr/export/export.h"
 
 #ifdef __cplusplus
 extern "C" {

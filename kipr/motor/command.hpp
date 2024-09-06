@@ -1,9 +1,9 @@
 #ifndef _KIPR_MOTOR_COMMAND_HPP_
 #define _KIPR_MOTOR_COMMAND_HPP_
 
-#include "kipr/core/command.hpp"
-#include "kipr/core/registers.hpp"
-#include "kipr/motor/constants.hpp"
+#include "../../kipr/core/command.hpp"
+#include "../../kipr/core/registers.hpp"
+#include "../../kipr/motor/constants.hpp"
 
 
 #include <array>

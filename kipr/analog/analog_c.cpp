@@ -1,4 +1,4 @@
-#include "kipr/analog/analog.h"
+#include "../../kipr/analog/analog.h"
 #include "analog_p.hpp"
 
 using namespace kipr;

@@ -1,12 +1,10 @@
 #include <stdio.h>
 
-#include "kipr/magneto/magneto.h"
-#include "kipr/time/time.h"
+#include "../../kipr/magneto/magneto.h"
+#include "../../kipr/time/time.h"
 
-int main(int argc, char **argv)
-{
-  while (1)
-  {
+int main(int argc, char **argv) {
+  while (1) {
     signed short mx = magneto_x();
     signed short my = magneto_y();
     signed short mz = magneto_z();

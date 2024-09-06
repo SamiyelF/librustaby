@@ -1,4 +1,4 @@
-#include "kipr/gyro/gyro.hpp"
+#include "../../kipr/gyro/gyro.hpp"
 #include "gyro_p.hpp"
 
 using namespace kipr;

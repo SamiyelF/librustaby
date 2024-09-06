@@ -1,8 +1,8 @@
-#include "kipr/core/platform.hpp"
-#include "kipr/core/registers.hpp"
-#include "kipr/core/cleanup.hpp"
+#include "../../kipr/core/platform.hpp"
+#include "../../kipr/core/registers.hpp"
+#include "../../kipr/core/cleanup.hpp"
 
-#include "kipr/log/log.hpp"
+#include "../../kipr/log/log.hpp"
 
 #include "device.hpp"
 
